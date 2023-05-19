@@ -15,13 +15,15 @@ body, html{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 950px;
     height: 350px;
     border-radius: 20px;
     background: url('/pexels-dinnow-9444476.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     box-shadow:  2px black;
+    transform: translate(-50%, -50%);
 }
 
 .formulario{
@@ -110,9 +112,9 @@ p{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
     margin-top: 17px;
     margin-left: 4px;
+    transform: translateY(-10px);
 }
 
 a{
